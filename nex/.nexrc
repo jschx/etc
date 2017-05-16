@@ -1,0 +1,7 @@
+map g 1G
+
+set number
+set ruler
+set searchincr
+set showmode
+set tabstop=4

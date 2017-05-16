@@ -1,0 +1,6 @@
+color indicator white black
+color normal default default
+color status white black
+color sidebar_divider black default
+
+set folder = ~/var/mail

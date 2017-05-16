@@ -1,0 +1,43 @@
+[admiral]
+items = ["left", "pad", "workspaces", "pad", "title",
+         "center", "uname",
+         "right", "vpn", "pad", "battery", "pad", "clock", "pad"]
+
+[pad]
+path = "echo '  '"
+static = true
+
+[workspaces]
+path = "./ewmh_workspaces.sh"
+
+[title]
+path = "./ewmh_title.sh"
+
+[uname]
+path = "./uname.sh"
+static = true
+
+[vpn]
+path = "./vpn.sh"
+reload = 10
+
+[battery]
+path = "./battery.sh"
+reload = 60
+
+[clock]
+path = "./clock.sh"
+reload = 60
+
+# Used for formatting lemonbar
+[left]
+path = "echo '%{l}'"
+static = true
+
+[center]
+path = "echo '%{c}'"
+static = true
+
+[right]
+path = "echo '%{r}'"
+static = true

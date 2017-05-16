@@ -1,0 +1,29 @@
+Xcursor.theme: dmz-aa
+Xcursor.size: 48
+
+xterm*colorBDMode:true
+xterm*cursorBlink:true
+xterm*faceName:DejaVuSansMono:size=10
+xterm*internalBorder:48
+xterm*loginShell:true
+xterm*scrollBar:false
+
+*background:#222222
+*foreground:#888888
+*colorBD:#aaaaaa
+*color0:#444444
+*color8:#666666
+*color1:#aa6666
+*color9:#cc8888
+*color2:#66aa66
+*color10:#88cc88
+*color3:#aa8844
+*color11:#ccaa66
+*color4:#6666aa
+*color12:#8888cc
+*color5:#aa66aa
+*color13:#cc88cc
+*color6:#66aaaa
+*color14:#88cccc
+*color7:#cccccc
+*color15:#eeeeee

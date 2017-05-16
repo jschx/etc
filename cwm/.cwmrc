@@ -1,0 +1,13 @@
+borderwidth 16
+color activeborder '#aaaaaa'
+color font '#666666'
+color selfont '#888888'
+color groupborder '#6666aa'
+color inactiveborder '#cccccc'
+color menubg '#ffffff'
+color menufg '#666666'
+color urgencyborder '#aa8844'
+color ungroupborder '#aa6666'
+fontname 'DejaVuSansMono:size=10'
+gap 32 32 32 32
+moveamount 32
