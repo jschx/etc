@@ -2,6 +2,7 @@ PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/
 export PATH HOME TERM
 
 alias ls='colorls -AFGh'
+alias rm='rm -P'
 
 bind -m ='clear'^J
 
