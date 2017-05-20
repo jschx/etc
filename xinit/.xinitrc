@@ -11,7 +11,7 @@ xset fp+ /usr/local/share/fonts/profont/
 xset fp+ /usr/local/share/fonts/terminus/
 
 lime &
-nightman &
+sctd &
 xbanish &
 xmodmap ~/.xmodmaprc
 xrandr --dpi 192
