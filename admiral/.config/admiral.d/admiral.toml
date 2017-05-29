@@ -12,6 +12,7 @@ path = "./ewmh_workspaces.sh"
 
 [title]
 path = "./ewmh_title.sh"
+reload = 2
 
 [uname]
 path = "./uname.sh"
@@ -23,7 +24,7 @@ reload = 10
 
 [battery]
 path = "./battery.sh"
-reload = 60
+reload = 10
 
 [clock]
 path = "./clock.sh"
