@@ -1,4 +1,4 @@
-PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:.
+PATH=/usr/ports/infrastructure/bin:$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:.
 export PATH HOME TERM
 
 alias ls='colorls -AFGh'
@@ -7,6 +7,7 @@ alias rm='rm -P'
 bind -m ='clear'^J
 
 export LC_CTYPE='en_US.UTF-8'
+export MANPATH="/usr/ports/infrastructure/man:"
 
 ulimit -S -d $(ulimit -H -d)
 ulimit -S -n $(ulimit -H -n)
