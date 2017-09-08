@@ -12,4 +12,4 @@ fi
 if [ "${#title}" -ge 61 ]; then
 	title="$(echo ${title} | cut -c-61)..."
 fi
-echo "%{B-}%{F$c7}${title}"
+echo "%{B-}%{F-}${title}"

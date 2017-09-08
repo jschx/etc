@@ -1,7 +1,7 @@
 [admiral]
 items = ["left", "pad", "workspaces", "pad", "title",
          "center", "uname",
-         "right", "vpn", "pad", "battery", "pad", "clock", "pad"]
+         "right", "battery", "pad", "clock", "pad"]
 
 [pad]
 path = "echo '  '"
@@ -20,6 +20,10 @@ static = true
 
 [vpn]
 path = "./vpn.sh"
+reload = 10
+
+[nowplaying]
+path = "./now_playing.sh"
 reload = 10
 
 [battery]
