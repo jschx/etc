@@ -1,13 +1,17 @@
-PATH=/usr/ports/infrastructure/bin:$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:.
+PATH=$HOME/bin:/usr/ports/infrastructure/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:.
 export PATH HOME TERM
 
+alias ffup='doas env PKG_PATH=https://packages.rhaalovely.net/snapshots/$(arch -s)/ pkg_add -u firefox'
 alias ls='colorls -AFGh'
 alias rm='rm -P'
 
 bind -m ='clear'^J
 
+export EDITOR='/usr/bin/ex'
+export VISUAL='/usr/bin/vi'
 export LC_CTYPE='en_US.UTF-8'
-export MANPATH="/usr/ports/infrastructure/man:"
+
+set -o emacs
 
 ulimit -S -d $(ulimit -H -d)
 ulimit -S -n $(ulimit -H -n)
