@@ -8,11 +8,11 @@ xterm*internalBorder:48
 xterm*loginShell:true
 xterm*scrollBar:false
 
-*background:#222222
-*foreground:#888888
-*colorBD:#aaaaaa
-*color0:#444444
-*color8:#666666
+*background:#101418
+*foreground:#606468
+*colorBD:#808488
+*color0:#202428
+*color8:#404448
 *color1:#aa6666
 *color9:#cc8888
 *color2:#66aa66
@@ -25,5 +25,5 @@ xterm*scrollBar:false
 *color13:#cc88cc
 *color6:#66aaaa
 *color14:#88cccc
-*color7:#cccccc
-*color15:#eeeeee
+*color7:#a0a4a8
+*color15:#c0c4c8
