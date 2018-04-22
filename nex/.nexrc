@@ -1,7 +1,9 @@
 map g 1G
 
+set iclower
 set number
 set ruler
 set searchincr
 set showmode
 set tabstop=4
+set verbose

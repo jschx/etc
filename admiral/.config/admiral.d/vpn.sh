@@ -3,7 +3,9 @@
 
 . ~/.config/lime/colors.conf
 
-if [ "$(pgrep openvpn)" ]; then
+proc='openvpn'
+
+if [ "$(pgrep ${proc})" ]; then
 	vpn="%{F$c2}[vpn]"
 else
 	vpn="%{F$c1}[vpn]"

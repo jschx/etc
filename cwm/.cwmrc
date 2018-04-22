@@ -1,13 +1,33 @@
-borderwidth 16
-color activeborder '#aaaaaa'
+borderwidth 8
+color activeborder '#666666'
 color font '#666666'
-color selfont '#888888'
+color selfont '#111111'
 color groupborder '#6666aa'
-color inactiveborder '#cccccc'
-color menubg '#ffffff'
+color inactiveborder '#222222'
+color menubg '#111111'
 color menufg '#666666'
 color urgencyborder '#aa8844'
 color ungroupborder '#aa6666'
-fontname 'DejaVuSansMono:size=10'
-gap 32 32 32 32
+command term xterm
+command lock slock
+fontname 'SFMono:size=8:style=semibold'
+gap 112 32 32 32
 moveamount 32
+sticky yes
+
+bind-key 4-space window-vtile
+bind-key 4-1 group-only-1
+bind-key 4-2 group-only-2
+bind-key 4-3 group-only-3
+bind-key 4-4 group-only-4
+bind-key 4-j window-cycle
+bind-key 4-k window-rcycle
+bind-key 4-m window-maximize
+bind-key 4-p menu-exec
+bind-key 4-r restart
+bind-key 4-x window-delete
+bind-key 4S-Return terminal
+bind-key 4S-1 window-movetogroup-1
+bind-key 4S-2 window-movetogroup-2
+bind-key 4S-3 window-movetogroup-3
+bind-key 4S-4 window-movetogroup-4
