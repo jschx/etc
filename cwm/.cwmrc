@@ -10,7 +10,7 @@ color urgencyborder '#aa8844'
 color ungroupborder '#aa6666'
 command term xterm
 command lock slock
-fontname 'SFMono:size=8:style=semibold'
+fontname 'SFMono:size=8:style=bold'
 gap 112 32 32 32
 moveamount 32
 sticky yes

@@ -10,6 +10,10 @@ xset fp+ /usr/local/share/fonts/noto/
 xset fp+ /usr/local/share/fonts/profont-x11/
 xset fp+ /usr/local/share/fonts/ubuntu/
 
+if [ -x /usr/local/bin/dbus-launch -a -z "${DBUS_SESSION_BUS_ADDRESS}" ]; then
+	eval `dbus-launch --sh-syntax --exit-with-session`
+fi
+
 #display -window root ~/var/pictures/wallpapers/wallpaper.png &
 lime &
 sctd &
@@ -17,7 +21,7 @@ xbanish &
 xmodmap ~/.xmodmaprc
 xrandr --dpi 192
 xset r rate 300 25
-xsetroot -mod 8 8 -fg '#222222' -bg '#111111'
+xsetroot -solid '#111111'
 
 aucat -i ~/usr/oxp.wav &
 

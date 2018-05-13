@@ -1,13 +1,3 @@
-Xcursor.theme: dmz-aa
-Xcursor.size: 48
-
-xterm*colorBDMode:true
-xterm*cursorBlink:true
-xterm*faceName:SFMono:size=8:style=semibold
-xterm*internalBorder:48
-xterm*loginShell:true
-xterm*scrollBar:false
-
 *background:#111111
 *foreground:#666666
 *colorBD:#888888
@@ -27,3 +17,14 @@ xterm*scrollBar:false
 *color14:#88cccc
 *color7:#aaaaaa
 *color15:#cccccc
+
+Xcursor.size: 48
+Xcursor.theme: dmz-aa
+
+xterm*colorBDMode:true
+xterm*cursorBlink:true
+xterm*cursorColor:#888888
+xterm*faceName:SFMono:size=8:style=bold
+xterm*internalBorder:48
+xterm*loginShell:true
+xterm*scrollBar:false
